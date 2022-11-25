@@ -115,7 +115,7 @@ class InputActivity : AppCompatActivity() {
         TedPermission.create()
             .setPermissionListener(object : PermissionListener {
                 override fun onPermissionGranted() {
-                    Toast.makeText(this@InputActivity, "완료", Toast.LENGTH_SHORT).show()
+//                    Toast.makeText(this@InputActivity, "완료", Toast.LENGTH_SHORT).show()
                 }
 
                 override fun onPermissionDenied(deniedPermissions: List<String>) {
